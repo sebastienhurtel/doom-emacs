@@ -60,7 +60,6 @@
       :leader
       :n "0" #'+private/treemacs-back-and-forth)
 
-;;virtualenvwrapper
-(setq venv-location "~/git/automation/.nw-ansible")
-(venv-initialize-interactive-shells) ;; shell support
-(venv-initialize-eshell) ;; eshell support
+;; Jupyter and ipython env variables
+(setq +python-ipython-repl-args '("-i" "--simple-prompt" "--no-color-info"))
+(setq +python-jupyter-repl-args '("--simple-prompt"))
