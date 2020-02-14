@@ -49,7 +49,7 @@
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
 
-;; Treemacs go back and forth to treemacs buffer
+;; treemacs go back and forth to treemacs buffer
 (defun +private/treemacs-back-and-forth ()
   (interactive)
   (if (treemacs-is-treemacs-window-selected?)
