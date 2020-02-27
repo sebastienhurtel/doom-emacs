@@ -29,7 +29,8 @@
 ;  :recipe (:host github :repo "username/repo"))
 
 (package! junos-mode
-  :recipe (:host github :repo "vincentbernat/junos-mode"))
+  :recipe (:host github :repo "vincentbernat/junos-mode"
+           :files (:defaults "junos.py")))
 
 (package! uuid)
 
